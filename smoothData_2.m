@@ -17,7 +17,7 @@ y=matriksData(:,2);
 
 yy1 = smooth(x,y,0.1,'moving');
 yy2 = smooth(x,y,0.1,'lowess');
-yy3 = smooth(x,y,0.1,'loess');
+yy3 = smooth(x,y,0.1,'lowess');
 yy4 = smooth(x,y,0.1,'sgolay');
 yy5 = smooth(x,y,0.1,'rlowess');
 yy6 = smooth(x,y,0.1,'rloess');
